@@ -45,8 +45,9 @@ textarea {
   height: 300px;
   width: 60%;
 
-  border: 6px solid rgb(28, 28, 79);
+  border: 6px dotted rgb(13, 34, 156);
   margin: 80px 40px;
+  padding: 5px;
 
   float: right;
 }
@@ -61,7 +62,7 @@ textarea {
   height: 300px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
