@@ -62,7 +62,7 @@ textarea {
   height: 300px;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -120,11 +120,13 @@ textarea {
 }
 
 #about-me {
-  /*	animation-name: red-to-black;
-	animation-duration: 4s;
-	animation-timing-function: linear;
-	animation-iteration-count: 2;
-	animation-direction: alternate-reverse;*/
+  animation-name: red-to-black;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+
+  /* animation: red-to-black 6s linear 0s 2 alternate; */
 
   -webkit-animation: red-to-black 4s linear 0s 2 alternate-reverse;
   -moz-animation: red-to-black 4s linear 0s 2 alternate-reverse;
@@ -141,6 +143,10 @@ textarea {
   50% {
     background: yellow;
     transform: translate(10px, 10px);
+  }
+  70% {
+    background: green;
+    transform: translate(15px, 15px);
   }
 
   100% {
